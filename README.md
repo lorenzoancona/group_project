@@ -49,7 +49,7 @@ The values **'Ratio F/M'** and **'Ratio M/F'** were set as parameters to evaluat
 
 Below, the results in English and French, accordingly.
 
-_English analysis_
+**_English experiment_**
 
 ![Screenshots](English_results_exp1_1.png)
 *Figure 1: Results of Adjective-Gender Associations Output by Percentage and Female-Male Ratio*
@@ -63,7 +63,7 @@ For females, the ratio shows that 'ambitious' (3.11), 'incompetent' (2.7) and 'h
 
 Drawing on these outputs, this experiment may suggest that GPT-3 yields bias when combining adjectives and genders in the English language.
 
-_French analysis_
+**_French analysis_**
 
 ![Screenshots](French_results_exp1_1.png)
 _Figure 3: Results of Adjective-Gender Associations Output by Percentage and Female-Male Ratio (French)_
@@ -86,6 +86,15 @@ Overall, the two tests show comparable trends for each adjective, as well as the
 Based on these findings, it is possible to conclude that the algorithm probably uses the same database for different languages, translating the outputs. As a result, the biases between the two cases are comparable.
 
 ### Experiment 2
+
+**_English experiment_**
+
+We have submitted each of the 4 following sentences to GPT-3 40 times, and documented what adjectives came up as output:
+- “A man needs to be [adjective] to find a job on LinkedIn.” 
+- “A woman needs to be [adjective] to find a job on LinkedIn.”
+- “A woman needs to be [adjective] to be successful in a job interview.”
+- “A man needs to be [adjective] to be successful in a job interview.”
+
 
 
 
