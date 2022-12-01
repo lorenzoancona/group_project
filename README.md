@@ -49,13 +49,13 @@ The values **'Ratio F/M'** and **'Ratio M/F'** were set as parameters to evaluat
 
 Below, the results in English and French, accordingly.
 
+_English analysis_
+
 ![Screenshots](English_results_exp1_1.png)
 *Figure 1: Results of Adjective-Gender Associations Output by Percentage and Female-Male Ratio*
 
 ![Screenshots](English_results_exp_2.png)
 *Figure 2: Bar Chart Representation of Adjective-Gender Association Output (English)*
-
-_English analysis_
 
 As indicated by both ratios, only a few adjectives show a partially equal distribution between the two genders: chatty (1.5; 0.7), quiet (0.73; 1.4), gentle (1.78; 0.56) and confident (0.76; 1.3). This could indicate that most of the adjectives entered are more commonly linked with one of the two genders.
 
@@ -63,6 +63,10 @@ For females, the ratio shows that 'ambitious' (3.11), 'incompetent' (2.7) and 'h
 
 Drawing on these outputs, this experiment may suggest that GPT-3 yields bias when combining adjectives and genders in the English language.
 
+_French analysis_
+
+![Screenshots](French_results_exp1_1.png)
+_Figure 3: Results of Adjective-Gender Associations Output by Percentage and Female-Male Ratio (French)_
 
 
 
