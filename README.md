@@ -52,6 +52,23 @@ Below, the results in English and French, accordingly.
 ![Screenshots](English_results_exp1_1.png)
 *Figure 1: Results of Adjective-Gender Associations Output by Percentage and Female-Male Ratio*
 
+![Screenshots](English_results_exp_2.png)
+*Figure 2: Bar Chart Representation of Adjective-Gender Association Output (English)*
+
+_English analysis_
+
+As indicated by both ratios, only a few adjectives show a partially equal distribution between the two genders: chatty (1.5; 0.7), quiet (0.73; 1.4), gentle (1.78; 0.56) and confident (0.76; 1.3). This could indicate that most of the adjectives entered are more commonly linked with one of the two genders.
+
+For females, the ratio shows that 'ambitious' (3.11), 'incompetent' (2.7) and 'headstrong' (3.5) tend to be associated with this gender, along with 'sweet' which is highly affiliated with a ratio of 39 and a frequency of 97.5%. For males, the parameter suggests an association between the gender and the adjectives “competent” (5,33), “loud” (3,33), “extravagant” (3,11), frugal (4,5), “insecure” (4,16) and “strict” (2,3). Besides, “violent” is highly affiliated with males with a frequency of 90% and no occurrence for females, as shown by the percentage equal to 0. 
+
+Drawing on these outputs, this experiment may suggest that GPT-3 yields bias when combining adjectives and genders in the English language.
+
+
+
+
+
+
+
 
 
 
