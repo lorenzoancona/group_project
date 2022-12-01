@@ -49,6 +49,9 @@ The values **'Ratio F/M'** and **'Ratio M/F'** were set as parameters to evaluat
 
 Below, the results in English and French, accordingly.
 
+![Screenshots](English_results_exp1_1)
+
+
 
 
 
