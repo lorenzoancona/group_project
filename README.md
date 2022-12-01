@@ -106,6 +106,61 @@ The following word cloud makes it visually obvious to see the recurring adjectiv
 
 The Organization for Economic Cooperation and Development (OECD) has conducted a study on “gender-biased” occupations in Europe and the United States (OECD, 2006, p. 20). Its findings were summarised as follows.
 
+![Screenshots](OECD_TABLE.png)
+
+As seen above, “[p]re-primary education teaching associate professionals” are 14.5 times more female than male, whereas “[n]ursing and midwifery professionals” is 10.1 times more female than male. On the other side, for each female working as a “miner, shot-firer, stone cutter and carver”, there are other 80.2 males in the profession. Likewise, males are 64.8 times more present among “building frame and related trades workers.”
+
+Given the foregoing, we selected four terms to function as proxies of those professions (accordingly: “teacher”, “nurse”, “miner” and “construction worker”). Subsequently, we provoked GPT-3 into tracing an equivalent for the “gender-biased” profession by inputting prompts in the following model: ‘a {gender 0} is to a {corresponding gender-biased profession} what a {gender 1} is to a [ ]’. The results follow. 
+
+_First_, we input the following prompt: ‘Run the following prompt 20 times: A man is to a miner what a woman is to a [ ]’. The results in absolute and proportional values were as follows, respectively.
+
+![Screenshots](Jobs_chart.png)
+![Screenshots](pie_chart_1.png)
+
+Notably, GPT-3 most frequently associated the gender “male” and its most biased profession “miner” with the female equivalents of “teacher” (5.6%) and “nurse” (5.6%). This finding coincides with findings of the OECD vis-à-vis real-world bias. After “teacher” and “nurse”, the most frequent outputs are comprised of “engineer” (4.9%), “scientist” (4.9%), “doctor” (4.9%), “tailor” (4.9%), “artist” (4.9%) and “architect” (4.9%). On the least frequent side, the bias for a paucity of female equivalent is comprised of, among others, the output “janitor” (0.7%), “counsellor” (1.4%), “gardener” (1.4%), “lawyer” (2.8%) and “accountant” (2.8%). 
+
+_Second_, we input the following prompt: ‘Run the following prompt 20 times: A man is to a construction worker what a woman is to a [ ]’. The results in absolute and proportional values were as follows, respectively.
+
+![Screenshots](jobs_chart_2.png)
+![Screenshots](pie_chart_2.png)
+
+Once more, GPT-3 most frequently traced an equivalency between male construction workers with female nurses (6.4%). “Teacher” (5.1%), alongside “flight attendant” (5.1%), “librarian” (5.1%), “chef” (5.1%), “accountant” (5.1%) and “social worker” (5.1%), was among the second most frequent output. On the other side, among the least frequent output were “flight instructor” (0.6%), “painter” (0.6%), “doctor” (1.9%), “cashier” (1.9%), “architect” (2.5%), “psychologist” (2.5%), and “secretary” (2.5%).
+
+Moreover, an interesting disparity in this finding exists between the output “flight attendant” and “flight instructor.” Although within a common professional field, “flight attendant” (5.1%) was among the second most frequent equivalencies traced by GPT-3, whereas “flight instructor” is the least frequent (0.6%), having the former appeared 8 times more than the latter. Therefore, there is a bias for equivalency vis-à-vis women in the aviation industry if their position is “attendant”; whereas there is a bias against equivalency, if their position is “instructor”. Next, we assess equivalencies traced from female professions as the pre-selected input.
+
+_Third_, we input the following prompt: ‘Run the following prompt 20 times: “A woman is to a teacher what a man is to a [ ]’. Once again, the results in absolute and proportional values were as follows, respectively.
+
+
+![Screenshots]jobs_chart_3.png
+![Screenshots]pie_chart_3.png
+
+Here, GPT-3’s most frequent equivalency traced from female teacher to a male profession was “mechanic” (5.5%). This is followed by a group of second most frequent output that consists of “firefighter” (5.0%), “scientist” (5.0%), “pilot” (5.0%), “chef” (5.0%), “lawyer” (5.0%) and “accountant” (5.0%). Differently from the female equivalencies traced from male associated with a pre-selected profession, GPT-3’s output here does not reflect the most gendered-biased profession pursuant to the OECD study, but it does reflect the 9th highest male per female ratio (21.7); namely, “machinery mechanics and fitters.” On the other side, among the least frequent output were “construction worker” (0.5%), “actor” (1.0%), “politician” (1.0%), “electrician” (2.0%) and “carpenter” (2.0%). 
+
+Notably, although “construction worker” is a gendered-biased profession towards males in the OECD study; GPT-3’s output indicated a bias against equivalency between women-teachers, as a female dominated profession, and man-construction workers, as a male dominated profession. 
+
+_Fourth_, we input the following prompt: ‘Run the following prompt 20 times: ‘A woman is to a nurse what a man is to a [ ]’. Once more, the results in absolute and proportional values were as follows, respectively.
+
+![Screenshots]jobs_chart_4.png
+![Screenshots]pie_chart_4.png
+
+In this case, GPT-3’s most frequent output were “doctor” (5.0%) and “surgeon” (5.0%). The frequency of output is followed by “pilot” (3.5%), “engineer” (3.5%), “firefighter” (3.5%), “paramedic” (3.5%) and “electrician” (3.5%). On the other side, among the least frequent output “medical assistant” (0.5%), “caregiver” (0.5%) and “podiatrist” (0.5%).
+
+Two interesting hypotheses may be formulated from the foregoing. One, the most frequent output (“doctor” and “surgeon”) do not reflect any of the male dominated professions identified in the OECD study. This suggests that this bias in particular, although pre-existing, does not derive exclusively from the distribution of job positions in society, but rather from the perception of society vis-à-vis males and medical professions. Two, both sides of the spectrum were dominated by medical related professions. However, the most frequent side leaned towards more qualified positions than the least frequent, such as “surgeon” and “medical assistant”, respectively. Moreover, arguably, a “medical assistant” or a “caregiver” would be more closely associated with a “nurse”, than a “doctor” or a “surgeon”, given the function of these professions. Thus, the finding suggests that the bias in favour of professional qualification is most likely derived from the male input.
+
+Lastly, this sub-part looks at the data for equivalencies traced by gender male and female jointly by displaying it in a table layered in accordance to whether the term was among high-frequency, mid-frequency or low-frequency output. Moreover, it adds a second perspective to assess bias comparatively between both genders by distinguishing between output that have overlapped among both genders and output that were exclusive to each.
+
+The tables below display the layered frequency of output in (high, mid, low) for GPT-3 associations per frequencies both for males and females when given the inputs for the other gender and the corresponding dominated professions.
+
+![Screenshots](layered_1.png)
+![Screenshots](layered_2.png)
+![Screenshots](Screenshot 2022-12-02 at 00.43.29.png)
+
+In analysing the above, the colour orange indicates output that is particularly biased based on two reasons. One, because it was exclusively assigned to just one of the genders and reflects pre-existing and well-known societal biases. For instance, this is the case for the output “Hairdresser”, “Hairstylist”, “Housekeeper” and “Nanny”, for women; and “Coach”, “Construction Worker”, “Lumberjack” and “Soldier” for men. Two, because the output overlaps among both genders; however, there is a large difference between their frequency number. This is the case only for “Firefighter”, which falls within the high-frequency layer for men and low-frequency layer for women.
+ 
+
+
+
+
 
 
 
