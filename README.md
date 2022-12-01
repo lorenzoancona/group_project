@@ -68,18 +68,26 @@ _French analysis_
 ![Screenshots](French_results_exp1_1.png)
 _Figure 3: Results of Adjective-Gender Associations Output by Percentage and Female-Male Ratio (French)_
 
+![Screenshots](French_results_exp1_2.png)
+_Figure 4: Bar Chart Representation of Adjective-Gender Association Output (French)_
 
+As revealed by both ratios, only the adjective “bavards” (1.5; 0.7) shows a partially equal distribution between the two genders. Consequently, other adjectives do not have an equal distribution, despite different levels of association with each of the two genders.
 
+For females, the ratio shows that “ambitieux” (2,1), “gentils” (2,27), “obstines” (1,58), “doux” (2,16) are more likely to be associated with this gender. However, no adjective is strongly affiliated with females. For males, the parameter suggests an association between the gender and the adjectives “incompetents” (5,5), “competents” (5,5), “bruyants” (2,6), “extravagants” (3), economes (5,4), sûrs d’eux (3,25). Also, “violent” is heavily affiliated with males with a ratio and frequency respectively equal to 38 and 95%. 
 
+In addition, it is possible to detect a good frequency of gender-neutral outcomes, with the case of “obstines” being the most frequent in this category (17.5%).
 
+Hence, an association to either gender is very likely for the tested adjectives. Thus, it can be concluded that GPT-3 does not produce an equal distribution between genders. In addition, distributions with greater variance are more frequent for adjectives affiliated with men.
 
+_Comparison_
 
+Overall, the two tests show comparable trends for each adjective, as well as the same outliers, including the adjectives "sweet"/ “doux” "competent" / “competents” and "violent” / “violents”. However, in the French-language experiment, the adjectives in favour of women register lower deviations than for the same category in English. Also, it is worth reporting that 'incompetent'/ “incompetents” is the only case producing significant opposite effects in a comparative analysis. In addition, gender-neutral outcomes are more likely to occur in the French-language experiment than in the English one. However, it can be assumed that this is due to grammar differences in the two languages.
 
-
-
-
+Based on these findings, it is possible to conclude that the algorithm probably uses the same database for different languages, translating the outputs. As a result, the biases between the two cases are comparable.
 
 ### Experiment 2
+
+
 
 ### Experiment 3
 
