@@ -165,7 +165,41 @@ As the tables show, the adjectives that came up the most for men with output for
 
 As for women, the most cited adjectives are "confident" (44), "competent" (9), "articulate" (5), "professional" (4) and "assertive" (3). This is as follows.
 
+![Screenshots](table_LinkedIn_1.png)
+![Screenshots](table_interview_1.png)
+![Screenshots](table_output_1.png)
 
+As we can see from the women’s word cloud, there are way less adjectives; this makes the top ones easier to see, but also shows less diversity.
+
+![Screenshots](wordcloud_2.png)
+
+If we compare both genders’ results in English, we can notice interesting differences. While the top recurring adjectives are similar, women are advised to be confident a lot more often than men (44 times for women, 24 for men). Men are more often advised to be articulate (12 times, against 5 for women) and skilled (6 times against 3). Moreover, some adjectives came up for men, but not for women, and vice versa. For example, according to GPT-3, men benefit from being honest (it came up 3 times), disciplined (twice) and persistent (twice), but these adjectives never came up for women. The adjectives "capable", "brave", "qualified", "bold", "intelligent" and "talented" came up for women, but not for men. Lastly, men are attributed more adjectives than women. In total, 59 different adjectives were used for them, but only 29 for women.
+
+In the following word cloud, we can see GPT-3 could find many different adjectives to use for both genders. It shows a significant preference for "confident", "articulate", "competent", "skilled" and "professional".
+
+![Screenshots](wordcloud_3.png)
+
+_**Results for French Prompts: Men and Women**_
+
+![Screenshots](table_over_french.png)
+
+The top adjectives for women in French are "intelligente" (39), "professionnelle" (15), "dynamique" (10), "compétente" (8) and "qualifiée" (6). The following cloud helps us visualise the recurrence of adjectives for French women.
+
+![Screenshots](wordcloud_4.png)
+
+Below, the results vis-à-vis men for the French prompts.
+
+![Screenshots](table_over_french_2.png)
+
+The top adjectives for men are "intelligent" (23), "professionnel" (17), "motivé" (15), "bien habillé" (6) and "sérieux" (5). The following world cloud helps us see which adjectives come up the most.
+
+![Screenshots](wordcloud_5.png)
+
+If we compare the differences in the adjectives for men and women in French, we can notice notable differences straight away when looking at the most recurrent ones: men are told to be “bien habillé” (well dressed) 6 times, but women never are. They are told to be “motivé” (motivated) more often, 15 times against just 5 for women, and they are told to be “sérieux” (serious) and “confiant” (confident) 5 times each, while women are just told that once. The word “calme” (calm) is also used 5 times for them, but never for women. Meanwhile, women are more likely to be told to be “intelligente” (39 to 23), “dynamique” (10 to 3), “compétente” (8 to 4), and “qualifiée” (6 to 2). Some adjectives come up for them, but never for men: "responsable", "forte", "équilibrée", "capable", and, notably, “doit être meilleure que les hommes” (must be better than the men). Unlike in English, the total number of adjectives attributed to each gender is more equal, even if men still get more (36, against 31 for women).
+
+![Screenshots](wordcloud_6.png)
+
+In conclusion, men are attributed more adjectives than women; it seems GPT-3’s AI is more inspired for finding adjectives for men at the workplace than for women.  The adjectives attributed to men and women differ, even if some adjectives are well used for both ("confident" in English, "intelligent" in French). Some adjectives are used for one gender, but never for the other. Lastly, the adjectives generated for both genders are different depending on the language used.
 
 ### Experiment 3
 
@@ -227,6 +261,45 @@ Furthermore, the following table displays, respectively, which professions GPT-3
 
 In analysing the above, the colour orange indicates output that is particularly biased based on two reasons. One, because it was exclusively assigned to just one of the genders and reflects pre-existing and well-known societal biases. For instance, this is the case for the output “Hairdresser”, “Hairstylist”, “Housekeeper” and “Nanny”, for women; and “Coach”, “Construction Worker”, “Lumberjack” and “Soldier” for men. Two, because the output overlaps among both genders; however, there is a large difference between their frequency number. This is the case only for “Firefighter”, which falls within the high-frequency layer for men and low-frequency layer for women.
  
+ ## References
+ 
+ 
+Bamman D.,  Eisenstein J., Schnoebelen T. (2014) ‘Gender Identity and Lexical Variation in Social Media’, Journal of Sociolinguistics, 18(2). Available at: https://doi.org/10.1111/josl.12080 (Accessed: 28 November 2022).
+
+Bolukbasi T. et al. (2016) ‘Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings’, 30th Conference on Neural Information Processing Systems. Available at: https://proceedings.neurips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf (Accessed: 28 November 2022).
+
+Brown, T. et al. (2020) “Language Models are Few-Shot Learners”, ArXiv, Available at: https://doi.org/10.48550/arXiv.2005.14165 (Accessed: 28 November 2022).
+
+Crawford, K. (2017), “The Trouble with Bias”, Available at: https://www.youtube.com/watch?v=fMym_BKWQzk&ab_channel=TheArtificialIntelligenceChannel (Accessed: 28 November 2022).
+
+Floridi, L. and Chiriatti, M. (2020) “GPT-3: Its nature, scope, limits, and consequences,” Minds and Machines, 30(4), pp. 681–694. Available at: https://doi.org/10.1007/s11023-020-09548-1 (Accessed: 28 November 2022).
+
+Friedman B., Nissenbaum H. (1996) ‘Bias in Computer Systems’, ACM Transactions on Information Systems, 14(3). Available at: https://nissenbaum.tech.cornell.edu/papers/Bias%20in%20Computer%20Systems.pdf (Accessed: 28 November 2022).
+
+Luccioni A., Bengio Y. (2019) ‘On the Morality of Artificial Intelligence’, arXiv:1912.11945. Available at: https://doi.org/10.48550/arXiv.1912.11945 (Accessed: 28 November 2022).
+
+Mittelstadt B. D. et al. (2016) ‘The ethics of algorithms: Mapping the debate’. Big Data & Society, 3(2). Available at: https://doi.org/10.1177/2053951716679679 (Accessed: 28 November 2022).
+
+Nicholson, J. (2022) “The Gender Bias Inside GPT-3”, Medium. Available at: https://medium.com/madebymckinney/the-gender-bias-inside-gpt-3-748404a3a96c (Accessed: 28 November 2022).
+
+O’Neil, C. (2016) ‘Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy’. First Edition, New York: Crown Publishers.
+
+Obermeyer Z., Powers P., Vogeli C., Mullainathan S. (2019) ‘Dissecting racial bias in an algorithm used to manage the health of populations’, Science 366(6464). Available at: https://www.science.org/doi/10.1126/science.aax2342 (Accessed: 28 November 2022).
+
+OECD (2006) ‘Woman and Men in OECD Countries’. OECD, Paris. Available at: https://www.oecd.org/sdd/37962502.pdf (Accessed 28 November 2022).
+
+Osoba, O. and Welser, W. (2017) “An intelligence in our image: The risks of bias and errors in artificial intelligence.” Available at: https://doi.org/10.7249/rr1744 (Accessed: 28 November 2022).
+
+Prates M., Avelar P., Lamb C. L. (2019) ‘Assessing Gender Bias in Machine Translation – A Case Study with Google Translate’, arXiv:1809.02208. Available at: https://doi.org/10.48550/arXiv.1809.02208 (Accessed: 28 November 2022).
+
+Russel S., Norvig P., (2021) ‘Artificial Intelligence: A Modern Approach’. Fourth Edition, Hoboken: Pearson.
+
+Sunstein R. C. (2019) ‘Algorithms, Correcting Biases’, Social Research: An International Quarterly, 86(2). Available at: https://muse.jhu.edu/article/732187 (Accessed: 28 November 2022).
+
+Tsamados A. et al (2022) ‘The ethics of algorithms: key problems and solutions’, AI & SOCIETY, 37. Available at: https://doi.org/10.1007/s00146-021-01154-8 (Accessed: 28 November 2022).
+
+Yeo, C. (2020) How Biased is GPT-3?, Medium, Available at: https://medium.com/fair-bytes/how-biased-is-gpt-3-5b2b91f1177 (Accessed: 28 November 2022).
+
 
 
 
